@@ -2,12 +2,12 @@ import os
 import requests
 from twilio.rest import Client
 
-appid = os.environ.get("appid") # this is the appid basically a key which we first need to generate on the
+APPID = os.environ.get("appid") # this is the appid basically a key which we first need to generate on the
                                            # API website to get the data from the API endpoint
-account_sid = os.environ.get("account_sid")
+ACCOUNT_SID = os.environ.get("account_sid")
 
 
-auth_token = os.environ.get("auth_token") # setting the variable as an environment variable. but now we cannot run the
+AUTH_TOKEN = os.environ.get("auth_token") # setting the variable as an environment variable. but now we cannot run the
 # code from here we have to run it from terminal.
 
 parameters = {
