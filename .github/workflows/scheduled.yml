@@ -45,3 +45,4 @@ jobs:
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
           APPID: ${{ secrets.APPID }}
         run: python main.py
+        
